@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <link rel="stylesheet" href="homestyles.css">
+</head>
+  <title>AC sweets - Submit an Order</title>
+</head>
+<body>
+  <header>
+    <div class="sweet">
+    <h1>AC sweets!</h1>
+    <nav>
+       <ul class="navbar">
+        <li><a href="home.html">Home</a></li> 
+          <li class="dropdown">
+        <a href="Sweets.html">Sweets ▼</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Chocolate cakes</a></li>
+          <li><a href="#">Fruit cakes</a></li>
+          <li><a href="#">Vegeterian/Special</a></li>
+          <li><a href="#">Forest/Velvet</a></li>
+        </ul>
+      </li>
+        <li><a href="submitOrder.html">Submit an order</a></li>
+        <li><a href="reachus.html">Contact Us</a></li>
+      </ul>
+    </nav>
+        <h2>Submit Your Order</h2>
+        </div>
+    <div class="form">
+  <form id="orderForm" action="#" method="POST">
+    <label for="title">Cake Type:</label> <br>
+    <select id="title" name="title" required style="width: 100%; max-width: 300px; padding: 8px; box-sizing: border-box;">
+      <option value="">Select a cake type</option>
+      <option value="Chocolate cake">Chocolate cake</option>
+      <option value="Fruit cake">Fruit cake</option>
+      <option value="Vegeterian/Special cake">Vegeterian/Special cake</option>
+      <option value="Forest/Velvet cake">Forest/Velvet cake</option>
+    </select><br><br>
+
+    <label for="ingredients">Ingredients or Preferences:</label><br>
+    <textarea id="ingredients" name="ingredients" required style="width: 100%; max-width: 300px; padding: 8px; box-sizing: border-box;"></textarea><br><br>
+
+    <label for="instructions">Instructions or Allergies:</label><br>
+    <textarea id="instructions" name="instructions" required style="width: 100%; max-width: 300px; padding: 8px; box-sizing: border-box;"></textarea><br><br>
+
+    <label for="image">Cake Image (optional):</label><br>
+    <input type="file" id="image" name="image"><br><br>
+
+    <input type="submit" value="Submit Order">
+  </form>
+  <div id="errorMessage" style="color: red; display: none;">Please select a valid cake type from the sweets option.</div>
+  <div id="successMessage" style="color: green; display: none;">Order submitted successfully!</div>
+</div>
+<div class="sweet">
+    <p> <b>Need help? Reach out-</b> </p>
+    <h3>Home baked Just for You!</h3> 
+  <footer>
+    </div>
+    <ul class="rights">
+    <nav>
+      <ul>
+        <li><a href="Sweets.html">Sweets</a></li>
+        <li><a href="reachus.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <p> <b>AC sweets, Homemade with love for You!</b>
+    <br>&copy; 2025 AC Sweets. All rights reserved </p>
+  </footer>
+   <script src="order.js"></script>
+</body>
+</html>

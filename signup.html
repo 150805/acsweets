@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <link rel="stylesheet" href="homestyles.css">
+</head>
+  <title>AC School!</title>
+</head>
+<body>
+  <header>
+    <div class="sweet">
+    <h1>AC School!</h1>
+    <nav>
+       <ul class="navbar">
+        <li><a href="school.html">AC School</a></li> 
+        <li><a href="reachus.html">Contact Us</a></li>
+      </ul>
+    </nav>
+        <h2>Become an AC Baker</h2>
+        </div>
+    <div class="form">
+      <form id="contactForm" action="#" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; box-sizing: border-box;"><br>
+        <span id="nameError" class="error" style="color: red; display: none;"></span><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; box-sizing: border-box;"><br>
+        <span id="emailError" class="error" style="color: red; display: none;"></span><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 8px; box-sizing: border-box;"><br>
+        <span id="phoneError" class="error" style="color: red; display: none;"></span><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required style="width: 100%; padding: 8px; box-sizing: border-box;"><br>
+        <span id="ageError" class="error" style="color: red; display: none;"></span><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required style="width: 100%; padding: 8px; box-sizing: border-box;"><br>
+        <span id="passwordError" class="error" style="color: red; display: none;"></span><br>
+
+        <label for="confirmPassword">Confirm Password:</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" required style="width: 100%; padding: 8px; box-sizing: border-box;"><br>
+        <span id="confirmPasswordError" class="error" style="color: red; display: none;"></span><br>
+
+        <label>Apply for:</label><br>
+        <select id="accountType" style="width: 100%; padding: 8px; box-sizing: border-box;">
+          <option>--Select Account--</option>
+          <option>April</option>
+          <option>August</option>
+          <option>November</option>
+        </select><br>
+        <span id="accountTypeError" class="error" style="color: red; display: none;"></span><br><br>
+
+        <button type="submit" style="width: 100%; padding: 10px;">Sign Up</button>
+      </form>
+      <div id="errorMessage" style="color: red; display: none;">Please fix the errors in the form.</div>
+      <div id="successMessage" style="color: green; display: none;">Form submitted successfully!</div>
+    </div>
+  </div>
+  <div class="sweet">
+     <footer>
+    </div>
+    <ul class="rights">
+    <p> <b>AC sweets, Homemade with love for You!</b>
+    <br>&copy; 2025 AC Sweets. All rights reserved </p>
+  </footer>
+   <script src="signup.js"></script>
+</body>
+</html>

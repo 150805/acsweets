@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="homestyles.css" />
+  <title>AC School - Login</title>
+</head>
+<body>
+  <header>
+    <div class="sweet">
+      <h1>AC School!</h1>
+      <nav>
+        <ul class="navbar">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="reachus.php">Contact Us</a></li>
+          <li><a href="signup.php">Sign Up</a></li>
+        </ul>
+      </nav>
+      <h2>Login to Your Account</h2>
+    </div>
+  </header>
+
+  <main>
+    <div class="form">
+      <form action="login.php" method="post">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required
+          style="width: 100%; padding: 8px; box-sizing: border-box;"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required
+          style="width: 100%; padding: 8px; box-sizing: border-box;"><br><br>
+
+        <button type="submit" style="width: 100%; padding: 10px;">Login</button>
+      </form>
+
+      <p style="margin-top: 20px;">Don't have an account? 
+        <a href="signup.php">Sign Up</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="sweet">
+      <p><b>AC Sweets, Homemade with love for You!</b></p>
+      <p>&copy; 2025 AC Sweets. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
