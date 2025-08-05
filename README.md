@@ -1,17 +1,23 @@
 # AC Sweets
 
-AC Sweets is a simple bakery website including a samll size AC school website where one can enroll for baking classes with quarterly intakes.
+AC Sweets is a simple bakery website including a small AC school section where one can enroll for baking classes with quarterly intakes.
 
-## Functionalities 
+## Features
 
-- View cakes
-- Make an order
-- Contact/ reach out to us
-- AC School- sign up for baking classes 
-- Sign up for baking lessons
+### View Cakes  
+![Cakes](cakes.jpg)
 
-## Built With
+### Make an Order  
+![Order](order.jpg)
 
-- HTML, CSS, JavaScript
-- PHP & MySQL
+### Contact Us  
+![Contact](contact.jpg)
 
+### AC School  
+![AC School](acschool.jpg)
+
+### Sign Up for Baking Lessons  
+![Sign Up](signupp.jpg)
+
+### Homepage Preview  
+![Homepage](homepage.jpg)
