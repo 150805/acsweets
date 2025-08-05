@@ -4,6 +4,9 @@ AC Sweets is a simple bakery website including a small AC school section where o
 
 ## Features
 
+### Homepage Preview  
+![Homepage](homepage.jpg)
+
 ### View Cakes  
 ![Cakes](cakes.jpg)
 
@@ -19,5 +22,5 @@ AC Sweets is a simple bakery website including a small AC school section where o
 ### Sign Up for Baking Lessons  
 ![Sign Up](signupp.jpg)
 
-### Homepage Preview  
-![Homepage](homepage.jpg)
+
+
